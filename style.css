@@ -1,0 +1,16 @@
+body {
+    background-color: skyblue;
+    text-align: center;
+    padding:10%;
+
+}
+
+ul{
+    list-style: none;
+}
+
+#delete{
+    width : 50px;
+    float: right; 
+    clear: both; 
+}
