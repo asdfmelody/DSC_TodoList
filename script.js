@@ -10,10 +10,10 @@ function clickButton(){
     var li = document.createElement('li');
 
     li.setAttribute("id", "li"+count);
-    li.setAttribute("class","list-group");
+    li.setAttribute("class","btn btn-light btn-block");
 
     li.innerHTML = input.value; //input을 받은 값을 li안의 html 코드에 넣어주겟다.
-    li.innerHTML += "<button id='delete' onclick='remove("+count+")'>삭제</button>"
+    li.innerHTML += "<button id='delete' onclick='remove("+count+")' class='btn btn-secondary'>삭제</button>"
  
     list.appendChild(li);
 
